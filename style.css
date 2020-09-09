@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(22, 22, 22, 0.75);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.page-size{
+   
+    margin: 10% 10% 3%;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.grade-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text]{
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 5px;
+    outline: none;
+    
+}
+
+
+.btn-edt{
+    color: white;
+}
+
+.distinction{
+    background-color: silver;
+}
+
+.fail{
+    background-color: red;
+}
+
+.scores{
+    text-align: center;
+}
